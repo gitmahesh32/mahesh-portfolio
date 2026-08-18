@@ -36,7 +36,7 @@
         <div class="space-y-12">
 
           <article
-            v-for="(experience, index) in experiences"
+            v-for="experience in experiences"
             :key="`${experience.company}-${experience.role}`"
             class="relative md:pl-12"
           >
