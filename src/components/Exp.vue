@@ -1,7 +1,7 @@
 <template>
   <section
     id="experience"
-    class="bg-white px-6 py-24"
+    class="bg-white px-6 py-24 transition-colors dark:bg-slate-950"
   >
     <div class="mx-auto max-w-7xl">
 
@@ -50,7 +50,7 @@
 
             <!-- Experience Card -->
             <div
-              class="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8"
+              class="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition duration-300 hover:-translate-y-1 hover:shadow-lg md:p-8 dark:border-slate-800 dark:bg-slate-900"
             >
 
               <!-- Header -->
@@ -63,7 +63,7 @@
                   </p>
 
                   <h3
-                    class="mt-2 text-xl font-bold text-slate-900"
+                    class="mt-2 text-xl font-bold text-slate-900 dark:text-white"
                   >
                     {{ experience.role }}
                   </h3>
@@ -83,7 +83,7 @@
 
               <!-- Description -->
               <p
-                class="mt-6 max-w-4xl leading-7 text-slate-600"
+                class="mt-6 max-w-4xl leading-7 text-slate-600 dark:text-slate-400"
               >
                 {{ experience.description }}
               </p>

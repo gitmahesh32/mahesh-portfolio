@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="bg-slate-50 px-6 py-24"
+    class="bg-slate-50 px-6 py-24 transition-colors dark:bg-slate-900"
   >
     <div class="mx-auto max-w-7xl">
 
@@ -32,7 +32,7 @@
         <article
           v-for="project in featuredProjects"
           :key="project.id"
-          class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+          class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:border-slate-800 dark:bg-slate-950"
         >
 
           <!-- Project Image / Placeholder -->
