@@ -1,7 +1,7 @@
 <template>
   <section
     id="about"
-    class="bg-white px-6 py-24"
+    class="bg-white px-6 py-24 transition-colors dark:bg-slate-950"
   >
     <div class="mx-auto max-w-7xl">
 
@@ -11,7 +11,7 @@
           About Me
         </p>
 
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
           Building reliable web applications with modern technologies.
         </h2>
       </div>
@@ -20,10 +20,10 @@
       <div class="mt-12 grid gap-12 lg:grid-cols-2">
 
         <!-- About Text -->
-        <div class="space-y-6 text-lg leading-8 text-slate-600">
+        <div class="space-y-6 text-lg leading-8 text-slate-600 dark:text-slate-400">
           <p>
             I am a Full-Stack Web Developer with
-            <strong class="font-semibold text-slate-900">
+            <strong class="font-semibold text-slate-900 dark:text-white">
               8 years of professional IT experience
             </strong>,
             specializing in PHP, Laravel and Vue.js.
@@ -38,7 +38,7 @@
 
           <p>
             My strongest experience is with the
-            <strong class="font-semibold text-slate-900">
+            <strong class="font-semibold text-slate-900 dark:text-white">
               Laravel + Vue.js
             </strong>
             stack, where I enjoy working across both backend and
@@ -58,7 +58,7 @@
           <div
             v-for="highlight in highlights"
             :key="highlight.title"
-            class="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+            class="rounded-2xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900"
           >
             <div
               class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-xl text-blue-600"
@@ -66,11 +66,11 @@
               {{ highlight.icon }}
             </div>
 
-            <h3 class="mt-5 text-lg font-semibold text-slate-900">
+            <h3 class="mt-5 text-lg font-semibold text-slate-900 dark:text-white">
               {{ highlight.title }}
             </h3>
 
-            <p class="mt-2 text-sm leading-6 text-slate-600">
+            <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-white">
               {{ highlight.description }}
             </p>
           </div>

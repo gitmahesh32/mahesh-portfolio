@@ -1,24 +1,24 @@
 <template>
   <section
     id="home"
-    class="flex min-h-screen items-center bg-slate-50 px-6 pt-24"
+    class="flex min-h-screen items-center bg-slate-50 px-6 pt-24 transition-colors dark:bg-slate-950"
   >
     <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
 
       <!-- Content -->
       <div>
-        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 px-1">
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 px-1 dark:text-slate-400">
           Senior Full-Stack Developer
         </p>
 
-        <h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+        <h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl dark:text-white">
           Hi, I'm Mahesh.
           <span class="block text-blue-600">
             Laravel & Vue.js Developer.
           </span>
         </h1>
 
-        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-400">
           I have 8 years of professional IT experience building
           modern, scalable and maintainable web applications using
           Laravel, Vue.js, JavaScript and MySQL.
@@ -58,7 +58,7 @@
         <div class="relative">
           <div class="absolute -inset-4 rounded-3xl bg-blue-100 blur-2xl"></div>
 
-          <div class="relative w-80 rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+          <div class="relative w-80 rounded-3xl border border-slate-200 bg-white p-8 shadow-xl dark:border-slate-800 dark:bg-slate-900">
             <img src="/images/photo-mahesh.jpeg" class="flex h-42 w-42  justify-center rounded-full" />
             
             

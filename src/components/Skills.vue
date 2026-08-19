@@ -1,7 +1,7 @@
 <template>
   <section
     id="skills"
-    class="bg-slate-50 px-6 py-24"
+    class="bg-slate-50 px-6 py-24 transition-colors dark:bg-slate-900"
   >
     <div class="mx-auto max-w-7xl">
 
@@ -11,11 +11,11 @@
           Skills & Expertise
         </p>
 
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
           Technologies I work with
         </h2>
 
-        <p class="mt-5 text-lg leading-8 text-slate-600">
+        <p class="mt-5 text-lg leading-8 text-slate-600 dark:text-slate-400">
           My experience covers backend development, frontend development,
           database management and modern web application development.
         </p>
@@ -27,7 +27,7 @@
         <article
           v-for="skill in skills"
           :key="skill.name"
-          class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+          class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl dark:border-slate-800 dark:bg-slate-950"
         >
 
           <!-- Top -->
@@ -41,7 +41,7 @@
               </div>
 
               <div>
-                <h3 class="font-semibold text-slate-900">
+                <h3 class="font-semibold text-slate-900 dark:text-white">
                   {{ skill.name }}
                 </h3>
 
@@ -54,7 +54,7 @@
           </div>
 
           <!-- Description -->
-          <p class="mt-5 text-sm leading-6 text-slate-600">
+          <p class="mt-5 text-sm leading-6 text-slate-600 dark:text-slate-400">
             {{ skill.description }}
           </p>
 
